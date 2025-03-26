@@ -13,8 +13,8 @@ import {
   
   function page() {
     return (
-        <AlertDialog>
-        <AlertDialogTrigger>Open</AlertDialogTrigger>
+        <AlertDialog >
+        <AlertDialogTrigger className="bg-amber-400 p-10 text-black">Open</AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
